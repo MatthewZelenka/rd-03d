@@ -18,4 +18,4 @@ Processed target information that can be used by the application.
 
 ## Reference
 
-Ai-Thinker RD-03D radar protocol and documentation.
+Ai-Thinker RD-03D radar [protocol and documentation](https://docs.ai-thinker.com/en/Rd-03D_V2/index.html).
