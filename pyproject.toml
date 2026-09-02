@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "scikit-build-core>=0.10",
+]
+build-backend = "scikit_build_core.build"
+
+
+[project]
+name = "rd-03d-parser"
+version = "0.1.0"
+description = "Python bindings for rd_03d_parser"
+requires-python = ">=3.9"
+
+
+[tool.scikit-build]
+cmake.args = [
+    "-DRD_03D_BUILD_PYTHON=ON"
+]
